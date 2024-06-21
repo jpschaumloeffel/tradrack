@@ -232,7 +232,16 @@ var rackEntries = [
 		"weight": 132.5,
 		"color": "red"
 	},
-
+	{
+		"manufacturer": "Alien",
+		"series": "Totemcam",
+		"size": "1.80",
+		"minWidth": 39.7,
+		"maxWidth": 64.2,
+		"mbs": 13,
+		"weight": 144,
+		"color": "orange"
+	},
 
 ];
 
@@ -264,6 +273,22 @@ $( document ).ready(function() {
 	var minGraph = 0.0;
 	var maxGraph = 220.0;
 	var spanGraph = maxGraph - minGraph;
+
+	var line_dist = 10;
+	var line_x = line_dist;
+	while (line_x < maxGraph) {
+		ctx.strokeStyle = "lightgray";
+		ctx.beginPath();
+		ctx.moveTo(line_x / maxGraph * canvas.width, 0);
+		ctx.lineTo(line_x / maxGraph * canvas.width, canvas.height);
+		ctx.stroke();
+
+		ctx.fillStyle = "lightgray";
+		ctx.fillText(line_x, (line_x / maxGraph * canvas.width) + 5, canvas.height-10);
+
+		line_x += line_dist;
+	}
+
 
 	var i = 0;
 	rackEntries.forEach((entry) => {
