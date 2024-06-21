@@ -102,6 +102,138 @@ var rackEntries = [
 		"weight": 529.9,
 		"color": "turquoise"
 	},
+	{
+		"manufacturer": "Black Diamond",
+		"series": "Camalot Z4",
+		"size": "0",
+		"minWidth": 7.5,
+		"maxWidth": 11.8,
+		"mbs": 5,
+		"weight": 43,
+		"color": "white"
+	},
+	{
+		"manufacturer": "Black Diamond",
+		"series": "Camalot Z4",
+		"size": ".1",
+		"minWidth": 8.8,
+		"maxWidth": 13.8,
+		"mbs": 5,
+		"weight": 45,
+		"color": "white"
+	},
+	{
+		"manufacturer": "Black Diamond",
+		"series": "Camalot Z4",
+		"size": ".2",
+		"minWidth": 10.4,
+		"maxWidth": 16.3,
+		"mbs": 6,
+		"weight": 48,
+		"color": "white"
+	},
+	{
+		"manufacturer": "Black Diamond",
+		"series": "Camalot Z4",
+		"size": ".3",
+		"minWidth": 12.4,
+		"maxWidth": 22.6,
+		"mbs": 8,
+		"weight": 54,
+		"color": "white"
+	},
+	{
+		"manufacturer": "Black Diamond",
+		"series": "Camalot Z4",
+		"size": ".4",
+		"minWidth": 15.3,
+		"maxWidth": 27.7,
+		"mbs": 9,
+		"weight": 61,
+		"color": "white"
+	},
+	{
+		"manufacturer": "Black Diamond",
+		"series": "Camalot Z4",
+		"size": ".5",
+		"minWidth": 18.8,
+		"maxWidth": 33.9,
+		"mbs": 10,
+		"weight": 77,
+		"color": "white"
+	},
+	{
+		"manufacturer": "Black Diamond",
+		"series": "Camalot Z4",
+		"size": ".75",
+		"minWidth": 23.1,
+		"maxWidth": 42.1,
+		"mbs": 10,
+		"weight": 93,
+		"color": "white"
+	},
+	{
+		"manufacturer": "Alien",
+		"series": "Totemcam",
+		"size": "0.50",
+		"minWidth": 11.7,
+		"maxWidth": 18.9,
+		"mbs": 6,
+		"weight": 69,
+		"color": "white"
+	},
+	{
+		"manufacturer": "Alien",
+		"series": "Totemcam",
+		"size": "0.65",
+		"minWidth": 13.8,
+		"maxWidth": 22.5,
+		"mbs": 8,
+		"weight": 75,
+		"color": "blue"
+	},
+	{
+		"manufacturer": "Alien",
+		"series": "Totemcam",
+		"size": "0.80",
+		"minWidth": 17,
+		"maxWidth": 27.7,
+		"mbs": 9,
+		"weight": 83,
+		"color": "yellow"
+	},
+	{
+		"manufacturer": "Alien",
+		"series": "Totemcam",
+		"size": "1.00",
+		"minWidth": 20.9,
+		"maxWidth": 34.2,
+		"mbs": 10,
+		"weight": 95,
+		"color": "purple"
+	},
+	{
+		"manufacturer": "Alien",
+		"series": "Totemcam",
+		"size": "1.25",
+		"minWidth": 25.7,
+		"maxWidth": 42.3,
+		"mbs": 13,
+		"weight": 109,
+		"color": "green"
+	},
+	{
+		"manufacturer": "Alien",
+		"series": "Totemcam",
+		"size": "1.50",
+		"minWidth": 31.6,
+		"maxWidth": 52.2,
+		"mbs": 13,
+		"weight": 132.5,
+		"color": "red"
+	},
+
+
 ];
 
 
